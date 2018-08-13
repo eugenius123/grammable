@@ -36,6 +36,8 @@ RSpec.describe GramsController, type: :controller do
     end
   end
 
+
+
   describe "grams#update action" do
 
     it "shouldn't let users who didn't create the gram update it" do
@@ -79,6 +81,8 @@ RSpec.describe GramsController, type: :controller do
     end
   end
 
+
+
   describe "grams#edit action" do
 
     it "shouldn't let a user who did not create the gram edit a gram" do
@@ -109,6 +113,8 @@ RSpec.describe GramsController, type: :controller do
       expect(response).to have_http_status(:not_found)
     end
   end
+
+
 
   describe "grams#show action" do
     it "should successfully show the page if the gram is found" do
@@ -146,6 +152,8 @@ RSpec.describe GramsController, type: :controller do
     end
   end
 
+
+
   describe "grams#create action" do
     it "should require users to be logged in" do
       post :create, params: { gram: { message: "Hello" } }
@@ -156,7 +164,13 @@ RSpec.describe GramsController, type: :controller do
       user = FactoryBot.create(:user)
       sign_in user
 
-      post :create, params: { gram: { message: 'Hello!' } }
+      post :create, params: {
+          gram: {
+              message: 'Hello!',
+              picture: fixture_file_upload("/picture.jpg", 'image/jpg')
+          }
+      }
+
       expect(response).to redirect_to root_path
 
       gram = Gram.last
