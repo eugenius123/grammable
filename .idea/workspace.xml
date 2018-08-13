@@ -19,7 +19,6 @@
       <change beforePath="$PROJECT_DIR$/../firehose-test-app/bin/update" beforeDir="false" afterPath="$PROJECT_DIR$/../firehose-test-app/bin/update" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/grams_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/grams_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/controllers/grams_controller_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/controllers/grams_controller_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../tools/firehose-vagrant.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../tools/vagrant.command" beforeDir="false" afterPath="$PROJECT_DIR$/../../tools/vagrant.command" afterDir="false" />
@@ -71,7 +70,7 @@
           <entry key="Gemfile" value="60" />
           <entry key="erb" value="234" />
           <entry key="js" value="1" />
-          <entry key="rb" value="3166" />
+          <entry key="rb" value="3760" />
           <entry key="scss" value="23" />
           <entry key="tool-versions" value="1" />
         </counts>
@@ -81,7 +80,7 @@
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="RHTML" value="234" />
-          <entry key="Ruby" value="3226" />
+          <entry key="Ruby" value="3820" />
           <entry key="SCSS" value="23" />
         </counts>
       </usages-collector>
@@ -92,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/controllers/grams_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            <state relative-caret-position="-362">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -128,8 +127,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/grams_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="57" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+            <state relative-caret-position="150">
+              <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -202,8 +201,8 @@
         <option value="$PROJECT_DIR$/spec/factories.rb" />
         <option value="$PROJECT_DIR$/app/views/grams/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/grams/edit.html.erb" />
-        <option value="$PROJECT_DIR$/spec/controllers/grams_controller_spec.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/grams_controller_spec.rb" />
         <option value="$PROJECT_DIR$/app/controllers/grams_controller.rb" />
       </list>
     </option>
@@ -215,8 +214,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1926" />
-    <option name="y" value="-372" />
+    <option name="x" value="2073" />
+    <option name="y" value="-386" />
     <option name="width" value="1400" />
     <option name="height" value="833" />
   </component>
@@ -408,15 +407,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534012873702</updated>
-      <workItem from="1534012874926" duration="17756000" />
+      <workItem from="1534012874926" duration="19825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17756000" />
+    <option name="totallyTimeSpent" value="19825000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1926" y="-372" width="1400" height="833" extended-state="0" />
+    <frame x="2073" y="-386" width="1400" height="833" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -660,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/grams_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -674,10 +666,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/grams_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-362">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/grams_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="57" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+        <state relative-caret-position="150">
+          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
         </state>
       </provider>
     </entry>
