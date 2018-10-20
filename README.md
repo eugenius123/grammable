@@ -1,24 +1,19 @@
-# README
+# Grammable
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Grammable](http://grammable-eugene-yu.herokuapp.com/)
 
-Things you may want to cover:
+Grammable is an instagram clone with the ability for users to sign, create posts that contains pictures, and comment on any of the posts that are online. This app was built with a Test-Driven-Development approach. 
 
-* Ruby version
+This project was built over a week and utilizes Rails/PostgreSQL on the backend and Bootstrap on the front-end.
 
-* System dependencies
+## Features:
 
-* Configuration
+* User Authentication via Devise
 
-* Database creation
+* User comments and posts with pictures
 
-* Database initialization
+* User edit and deletion of posts
 
-* How to run the test suite
+* Image uploads to Amazon S3 via Carrierwave gem
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
